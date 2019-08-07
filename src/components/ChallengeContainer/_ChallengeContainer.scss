@@ -1,0 +1,42 @@
+.ChallengeContainer {
+  overflow-y: scroll;
+  // height: 280px;
+} 
+
+.complete-ul {
+  span,
+  .far,
+  .fas  {
+    color: rgba(131, 131, 131, 0.728)!important;
+  }
+
+  .fa-times:hover {
+    color: darkred;
+    opacity: .7;
+  }
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.new-challenge-input {
+  margin: 0;
+  flex: auto;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+
+  &::placeholder {
+    color: rgb(184, 184, 184);
+  }
+}
+
+.add-challenge-btn {
+  height: 40px;
+  border: none;
+  padding: 0 15px;
+  color: white;
+  font-size: 26px;
+}

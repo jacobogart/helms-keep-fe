@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quest should match snapshot 1`] = `
+<article
+  className="Quest green-quest"
+>
+  <div
+    className="card-header green-header"
+  >
+    <button
+      className="color-picker"
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        className="coin title-coin"
+        src="greencoin.png"
+      />
+    </button>
+    <h2
+      className="card-title"
+      contentEditable="true"
+      onBlur={[Function]}
+      onKeyDown={[Function]}
+      suppressContentEditableWarning={true}
+    >
+      My First Quest
+    </h2>
+    <NavLink
+      className="expand-btn"
+      key="1234"
+      to="/quests/1234"
+    >
+      <i
+        className="fas fa-expand"
+      />
+    </NavLink>
+  </div>
+  <div
+    className="card-body"
+  >
+    <ChallengeContainer
+      addChallenge={[Function]}
+      challengeType="incomplete"
+      challenges={
+        Array [
+          Object {
+            "id": "1234",
+            "isCompleted": false,
+            "message": "Clean the kitchen",
+          },
+        ]
+      }
+      deleteChallenge={[Function]}
+      updateChallenge={[Function]}
+      viewType="list"
+    />
+  </div>
+  <div
+    className="card-footer green-footer"
+  >
+    <div>
+      <p
+        className="show-completed"
+        onClick={[Function]}
+        role="button"
+      >
+        + Show
+         
+        1
+         completed
+      </p>
+    </div>
+    <button
+      className="delete-btn"
+      type="button"
+    >
+      <i
+        className="fas fa-trash"
+        onClick={[Function]}
+      />
+    </button>
+  </div>
+</article>
+`;

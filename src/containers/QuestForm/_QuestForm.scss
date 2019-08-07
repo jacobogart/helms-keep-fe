@@ -1,0 +1,92 @@
+.dialog-title {
+  display: block;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: red;
+  font-size: 40px;
+
+  &:hover {
+    color: rgb(255, 81, 81);
+  }
+}
+
+.new-quest-form {
+  width: 350px;
+  height: 420px;
+  background: white;
+  border-radius: 10px;
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .form-header {
+    background: #8CAC81;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+
+  &.green-header {
+    background: rgb(119, 148, 109);
+  }
+
+  &.red-header {
+    background: rgb(162, 108, 108);
+  }
+
+  &.yellow-header {
+    background: rgb(186, 178, 93);
+  }
+
+  &.blue-header {
+    background: rgb(108, 114, 162);
+  }
+  }
+
+  .form-body {
+    height: 280px;
+    overflow: scroll;
+    border-bottom: 1px solid rgb(233, 233, 233);
+  }
+
+  .message {
+    padding-left: 20px;
+  }
+
+  .new-challenge-input {
+    height: 40px;
+  }
+
+  .new-title-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+  }
+
+  .save-quest-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    height: 32px;
+    width: 74px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 3px;
+
+  }
+}
+

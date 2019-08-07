@@ -1,0 +1,16 @@
+.Nav {
+  height: 45px;
+  background: $primaryHeaderColor;
+  @include flex(null, null, center, null);
+  & h1 {
+    margin-left: 15px;
+    font-size: 30px;
+    color: rgb(235, 235, 235);
+    font-family: "Share Tech Mono", monospace;
+    & img {
+      height: 30px;
+      width: 15px;
+      margin-right: 10px;
+    }
+  }
+}
